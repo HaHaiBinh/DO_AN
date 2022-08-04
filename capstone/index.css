@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100wh;
+    height: 100vh;
+    /* background: linear-gradient(to left, #8942a8, #ba382f); */
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav i{
+    font-size: 24px;
+}
+.nav button {
+    border: none;
+    background: white;
+}
+.content{
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.phoneItem img{
+    width: 300px;
+    height: 300px;
+}
+.price button{
+    border-radius: 10px;
+    margin: 0 50px;
+    padding: 5px;
+}
+.shopping-cart {
+    width: 90wh;
+    height: 100vh;
+}
